@@ -26,20 +26,22 @@
             android:textSize="20dp"/>
 
     <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/etdUser"
+            android:id="@+id/txtUser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
         <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtUser"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Nhập username"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/edtPass"
+            android:id="@+id/txtPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
         <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtPass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Nhập password"/>
@@ -64,7 +66,7 @@
             android:backgroundTint="#2196F3"/>
 
     <Button
-            android:id="@+id/btnLogin"
+            android:id="@+id/btnBack"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Trở về"
